@@ -18,7 +18,7 @@ Repositorio para el proyecto MASCOTAFELIZ Aplicación web para entrega de Mision
 
 [JESUS GABRIEL TOLOSA ZABALA](https://github.com/gabotolosa)
 
-[MILENA DUARTE GOMEZ](https://github.com/)
+[MILENA DUARTE GOMEZ](https://github.com/Miluu7920)
 
 
 
