@@ -29,7 +29,7 @@ Repositorio para el proyecto MASCOTAFELIZ Aplicación web para entrega de Mision
 |Katherine Torrez  | Gestor Base Datos |kathevega03@gmail.com
 |Sebastian Engativa | Desarrollador Front |sebastianengativa96@gmail.com
 |Jesus Tolosa| Desarrollador Back |ing.tolosa@gmail.com
-|Milena DUarte| Tester |amilenadurte@gmail.com
+|Milena Duarte| Tester |amilenadurte@gmail.com
 
 
 # MascotaFeliz
