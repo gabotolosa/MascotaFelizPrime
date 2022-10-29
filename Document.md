@@ -15,7 +15,7 @@
 
 [JESUS GABRIEL TOLOSA ZABALA](https://github.com/gabotolosa)
 
-[MILENA DUARTE GOMEZ](https://github.com/)
+[MILENA DUARTE GOMEZ](https://github.com/Miluu7920)
 
 ![](https://img.shields.io/github/tag/pandao/editor.md.svg) 
 ![](https://img.shields.io/github/release/pandao/editor.md.svg) 
