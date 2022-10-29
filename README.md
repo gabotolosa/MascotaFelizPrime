@@ -46,6 +46,6 @@ Uso: Repository for the Project MascotaFeliz App Se crea el repositorio para el 
 
 ## Descripcion del Proyecto 
 
-`Puede visitar el link para leer detalladamente el problema ` :[ https://mascotafeliz.co/Documentacion/](https://github.com/gabotolosa/MascotaFeliz/blob/master/document.md)
+`Puede visitar el link para leer detalladamente el problema ` :[ https://mascotafeliz.co/Documentacion/](https://github.com/gabotolosa/MascotaFelizPrime/blob/main/Document.md)
 
 
