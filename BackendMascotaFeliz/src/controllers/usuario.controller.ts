@@ -17,10 +17,12 @@ import {
   del,
   requestBody,
   response,
+  HttpErrors,
 } from '@loopback/rest';
 import {Usuario} from '../models';
 import {UsuarioRepository} from '../repositories';
 import {AutenticacionService} from '../services/autenticacion.service';
+import { Credenciales } from '../models/credenciales.model';
 const fetch = require('node-fetch');
 
 export class UsuarioController {
@@ -30,6 +32,34 @@ export class UsuarioController {
     @service(AutenticacionService)
     public servicioAutenticacion:AutenticacionService,
   ) {}
+
+  @post('/identificarusuario',{
+    responses:{
+      '200':{
+        descripcion:'identificacion de usuario'
+      }
+    }
+  })
+  async identificarUsuario(
+    @requestBody() credeciales : Credenciales
+  ){
+    let p = await this.servicioAutenticacion.IdentificarUsuario(credeciales.usuario, credeciales.clave);
+    if(p){
+      let token = this.servicioAutenticacion.GenerarTokenJWT(p);
+      return {
+        datos:{
+          nombre: p.nombre,
+          apellido: p.apellido,
+          correo:p.correo,
+          id: p.id
+        },
+        tk: token
+      } 
+    }
+    else {
+      throw new HttpErrors[401]('los datos de autenticacion son invalidos');
+    }
+  }
 
   @post('/usuarios')
   @response(200, {
