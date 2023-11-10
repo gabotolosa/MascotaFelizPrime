@@ -3,20 +3,6 @@
 ## Nombre Descriptivo del Sistema
 ### [MASCOTAFELIZ](http://www.mimascotafeliz.)
 
-## Equipo de Trabajo
-![](https://talentodigital.mintic.gov.co/734/channels-633_logo_talento_digital.svg)
-
-
-[JOEL STEVEN VALENCIA RUIZ](https://github.com/joestevenn)
-
-[GINA KATHERINE TORREZ VEGA](https://github.com/KatheVega)
-
-[SEBASTIAN ENGATIVA DUARTE](https://github.com/)
-
-[JESUS GABRIEL TOLOSA ZABALA](https://github.com/gabotolosa)
-
-[MILENA DUARTE GOMEZ](https://github.com/Miluu7920)
-
 ![](https://img.shields.io/github/tag/pandao/editor.md.svg) 
 ![](https://img.shields.io/github/release/pandao/editor.md.svg) 
 ![](https://img.shields.io/github/issues/pandao/editor.md.svg) 
